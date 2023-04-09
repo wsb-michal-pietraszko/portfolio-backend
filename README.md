@@ -13,10 +13,14 @@ Automatically creates and enables venv
 ### Project info ###
 ##### Available endpoints: 
 * ```/``` - displays: ```Hello Michal```
-* ```/hello/``` displays a form with name input then displays the the message: ```Hello <name>```
+* ```/hello``` displays a form with name input then displays the the message: ```Hello <name>```
 
 #### Testing #### 
 ``` $ python manage.py tests ```
 
 > **_Note_:**
 Runs tests from ```/playground/tests.py```
+
+### Swarm testing results ###
+
+Results from `Locust` can be found in `./raport.pdf`
