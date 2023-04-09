@@ -21,4 +21,3 @@ class MyDjangoUser(HttpUser):
             headers={"Referer": self.client.base_url + "/hello"},
             cookies={"csrftoken": csrftoken},
         )
-
